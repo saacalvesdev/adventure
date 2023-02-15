@@ -1,0 +1,26 @@
+* {
+    margin: 0px; padding: 0px;
+}
+
+header{
+    background: url('../image/img.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+header div{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 350px 500px;
+    grid-template-rows: 80px;
+}
+
+header div h1 {
+    background-color: white;
+    color: rgb(1, 71, 4);
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
